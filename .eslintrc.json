@@ -5,6 +5,7 @@
         "node": true
     },
     "extends":["eslint:recommended","airbnb", "prettier", "prettier/react"],
+    "parser": "babel-eslint",
     "parserOptions": {
         "ecmaFeatures": {
             "experimentalObjectRestSpread": true,
@@ -16,22 +17,6 @@
         "prettier"
     ],
     "rules": {
-        "indent": [
-            "error",
-            "tab"
-        ],
-        "linebreak-style": [
-            "error",
-            "windows"
-        ],
-        "quotes": [
-            "error",
-            "double"
-        ],
-        "semi": [
-            "error",
-            "always"
-        ],
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+             "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
     }
 }
