@@ -2235,3 +2235,4 @@ Followed
 + https://www.youtube.com/watch?v=NO2DaxhoWHk
   - https://reactjs.org/community/starter-kits.html
   - [ESLint](https://eslint.org/docs/user-guide/getting-started)
+  - react semantic ui
