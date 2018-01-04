@@ -6,12 +6,11 @@ import "semantic-ui-css/semantic.min.css";
 import "./index.css";
 import App from "./App";
 import registerServiceWorker from "./registerServiceWorker";
+import HomePage from "./component/pages/HomePage";
 
 ReactDOM.render(
   <BrowserRouter>
-    <App>
-    
-    </App>
+    <App/>
   </BrowserRouter>,
   document.getElementById("root")
 );
